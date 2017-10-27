@@ -1,5 +1,5 @@
 {
-  "name": "react-keenio",
+  "name": "react-keenio-simple",
   "version": "1.0.0",
   "description": "Plugin to ease React Keenio integration",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nshore/react-keenio/issues"
   },
-  "homepage": "https://github.com/nshore/react-keenio#readme"
+  "homepage": "https://github.com/nshore/react-keenio#readme",
+  "dependencies": {
+    "keen-js": "^3.4.1"
+  }
 }
