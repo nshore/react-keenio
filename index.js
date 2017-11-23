@@ -1,11 +1,11 @@
-import Keen from 'keen-js';
-import keenConfig from "keen-config";
+const Keen = require('keen-js');
+const keenConfig = require("keen-config");
 
 var keenApiClient = new Keen({
     projectId: keenConfig.projectId, // String (required always)
     writeKey: keenConfig.writeKey,   // String (required for sending data)
     readKey: keenConfig.readKey      // String (required for querying data)
-})
+});
 
 const screenProfile = Keen.helpers.getScreenProfile();
 const windowProfile = Keen.helpers.getScreenProfile();

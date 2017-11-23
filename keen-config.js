@@ -6,4 +6,4 @@ export const keenConfig =
     browserAnalyticsEnabled: true,
     screenAnalyticsEnabled: true,
     windowAnalyticsEnabled: true
-  }
+  };
