@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nshore/react-keenio#readme",
   "dependencies": {
-    "keen-js": "^3.4.1"
+    "keen-tracking": "^1.4.0",
+    "config": "latest"
   }
 }

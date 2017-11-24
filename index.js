@@ -1,7 +1,7 @@
-const Keen = require('keen-js');
-const keenConfig = require("keen-config");
+const Keen = require('keen-tracking');
+const keenConfig = require('../keen-config.json');
 
-var keenApiClient = new Keen({
+let keenApiClient = new Keen({
     projectId: keenConfig.projectId, // String (required always)
     writeKey: keenConfig.writeKey,   // String (required for sending data)
     readKey: keenConfig.readKey      // String (required for querying data)
@@ -17,7 +17,7 @@ const keenDefaultProperties =
         screenProfile,
         windowProfile,
         browserProfile
-    }
+    };
 
 keenApiClient.extendEvents({ keenDefaultProperties });
 
