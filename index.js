@@ -1,5 +1,5 @@
 const Keen = require('keen-tracking');
-const keenConfig = require('../keen-config.json');
+const keenConfig = require('../../keen-config.json');
 
 let keenApiClient = new Keen({
     projectId: keenConfig.projectId, // String (required always)
