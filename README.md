@@ -1,4 +1,6 @@
 
+#[Work in Progress]
+
 First create a new Keen.IO project at https://keen.io/
 
 In your React/Javascript project import this package into your app.
