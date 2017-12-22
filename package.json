@@ -1,6 +1,6 @@
 {
   "name": "react-keenio-simple",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin to ease React Keenio integration",
   "main": "index.js",
   "scripts": {
